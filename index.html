@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Learn the essentials of HTML5 structure, accessibility best practices, and SEO basics with this simple example page." />
+    <meta name="keywords" content="HTML5, Accessibility, SEO, Semantic HTML, Web Development" />
+    <meta name="author" content="Jackton Nyaga" />
+    <title>HTML5 Accessibility & SEO Basics</title>
+</head>
+
+<body>
+    <header>
+        <h1>HTML5 + Accessibility & SEO Basics</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#accessibility">Accessibility</a></li>
+                <li><a href="#seo">SEO Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>This page demonstrates how to build a semantic HTML5 document that is accessible and optimized for search
+                engines. It uses meaningful tags, a clear heading structure, and good metadata practices.</p>
+        </section>
+
+        <section id="accessibility" aria-labelledby="accessibility-heading">
+            <h2 id="accessibility-heading">Accessibility Features</h2>
+            <p>Accessibility is ensured by using semantic landmarks such as <code>&lt;header&gt;</code>,
+                <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and
+                <code>&lt;footer&gt;</code>. These help screen readers navigate the content more efficiently.</p>
+            <p>Links have descriptive text, and headings follow a proper hierarchy to provide context for assistive
+                technologies.</p>
+        </section>
+
+        <section id="seo" aria-labelledby="seo-heading">
+            <h2 id="seo-heading">SEO Best Practices</h2>
+            <article aria-labelledby="seo-structure">
+                <h3 id="seo-structure">1. Structure Matters</h3>
+                <p>Use semantic HTML to help search engines understand the content and hierarchy of your page.</p>
+            </article>
+            <article aria-labelledby="seo-meta">
+                <h3 id="seo-meta">2. Use Meta Tags</h3>
+                <p>Meta descriptions and keywords provide context for search engines and improve visibility in search
+                    results.</p>
+            </article>
+            <article aria-labelledby="seo-content">
+                <h3 id="seo-content">3. Quality Content</h3>
+                <p>Include descriptive, human-readable content that uses keywords naturally and provides value to users.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer aria-label="Site Footer">
+        <p id="contact"><strong>Contact:</strong> Jackton Nyaga – <a
+                href="mailto:jackton@example.com">jackton@example.com</a></p>
+        <p>&copy; 2025 Jackton Nyaga. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
